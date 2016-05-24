@@ -1,0 +1,23 @@
+//		javascript code
+//		script_name:
+//
+//		author:
+//		description:
+//
+
+init(); 
+setTempo(62); 
+
+bg1 = Y26_ELECTRO_1;
+clap = Y59_CLAP_1;
+hat = Y59_HI_HATS_1;
+blip = YG_NEW_HIP_HOP_BLIP_1;
+sfx = RD_ELECTRO_SFX_AIRDROP_1;
+
+fitMedia(bg1, 1, 1, 33);
+fitMedia(clap, 2, 5, 33);
+fitMedia(hat, 3, 13, 21);
+fitMedia(blip, 4, 21, 33);
+fitMedia(hat, 5, 25, 33);
+fitMedia(sfx, 6, 33, 34);
+finish();  
